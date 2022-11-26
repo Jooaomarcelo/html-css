@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classe e pseudo-elementos</title>
+    <style>
+        body{
+            margin: auto;
+            font: normal 1em Arial,Helvetica, sans-serif;
+            text-align: justify;
+            width: 440px;
+        }
+        
+        a{
+            font-weight: bold; 
+            text-decoration: none;
+            color: red;
+        }
+        
+        /* Pseudo-classes
+            :hover, :visited, :active, :checked, :empty, :focus
+        */
+        a:visited{
+            color: darkred;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+        .especial:hover{
+            color: white;
+            background-color: rgba(0, 0, 0, 0.671);
+            text-decoration: none;
+        }
+
+        /* Pseudo-elemntos
+            ::before, ::after, ::active, ::first-letter, ::first-line
+        
+        */
+        .especial::before{
+            content: '>>';
+            font-weight: light;
+        }
+
+        .especial::after{ 
+            content: '<<';
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando um link</h1>
+    <p>
+        Para aprender HTML e CSS, acesse o
+        <a href="https://gustavoguanabara.github.io" target=_blank>GitHub do Guanabara</a>
+    </p>
+    <p>
+        Se quiser conhecer mais sobre os padrões acesse o site do
+        <a href="https://www.w3c.br" target=_blank>escritório do W3C no Brasil.</a>
+    </p>
+    <p>
+        Para acompanhar os cursos no YouTube, acesse o 
+        <a href="https://www.youtube.com/cursoemvideo/" target=_blank class="especial">canal do curso em vídeo</a>
+    </p>
+</body>
+</html>

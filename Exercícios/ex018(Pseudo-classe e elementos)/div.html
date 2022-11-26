@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especial</title>
+    <style>
+        body{
+            display: inline-flex;
+            max-width: max-content;
+        }
+        .especial{
+            display: inline-block;
+            max-width: max-content;
+            background-color: lightcyan;
+            border: 1px solid black;
+        }
+        div > .surpresa { /* > = children*/
+            display: none;
+        }
+        div:hover > .surpresa {
+            display: block;
+            background-color: yellow;
+        }
+        .blocos{
+            margin: 5px;
+            display: inline-block;
+            height: 150px;
+            width: 150px;
+            text-align: center;
+            border: 1px solid black;
+        }
+        .blocos:hover{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>    
+    <div class="especial">
+        <h1>Conteúdo especial</h1>
+        Passe o mouse aqui
+        <spam class="surpresa">SURPRESAAAA!</spam>
+        <p>Veja o conteúdo oculto aparecendo!</p>
+    </div>
+    <div class="blocos">1</div>
+    <div class="blocos">2</div>
+    <div class="blocos">3</div>
+</body>
+</html>

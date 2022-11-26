@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root{
+    --cor0: #8E5D52;
+    --cor1: #2f2325;
+    --fonte0: 'Sarala';
+    --fonte1: 'Righteous';
+}
+
+body{
+    font-size: 1em;
+    background-image: linear-gradient(68.15deg, var(--cor1) 16%, var(--cor0) 85%);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.imagem-cabeçalho{
+    height: 72px;
+}
+
+nav{
+    display: flex;
+    gap: 32px;
+}
+
+.menu-links{
+    font-family: var(--fonte0), 'sans-serif';
+    font-size: 1.12em;
+    font-weight: 400;
+    color: #fff2e7;
+}
+
+main{
+    border-top: 0.4px solid #fff2e7;
+    margin-bottom: 50px;
+}
+
+main > #principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main .escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+main h1{
+    color: #ECD6C4;
+    font-size: 4em;
+    font-weight: 400;
+    font-family: var(--fonte1), 'sans-serif';
+}
+
+main h2{
+    color: #ECD6C4;
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: var(--fonte0), 'sans-serif';
+}
+
+main button{
+    width: 180px;
+    height: 60px;
+    font-size: 1.5em;
+    font-family: var(--fonte0);
+    color:#2F2325;
+    background-color: #ECD6C4;
+    border: 0;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.267);
+}
+
+main button:hover{
+    background-color: #928579;
+}
+
+main #secundario{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 50px;
+}
+
+main h3{
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 50px;
+    font-family: var(--fonte1), cursive;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #fff2e7;
+}
+
+main p {
+    font-family: var(--fonte0), 'sans-serif';
+    font-weight: 400;
+    font-size: 1.12em;
+    color: #ECD6C4;
+}
+
+
+footer{
+    border-top: 0.4px solid #fff2e7;
+    padding: 32px;
+}
+
+footer .imagem-rodape{
+    display: block;
+    height: 48px;
+    margin: 0 auto;
+}
