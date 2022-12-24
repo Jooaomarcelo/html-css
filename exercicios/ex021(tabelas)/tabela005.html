@@ -35,47 +35,53 @@
     col.profissao {
       background-color: darkslategray;
     }
+
+    div#container { /* PARA TELAS PEQUENAS */
+      overflow-x: auto;
+    }
   </style>
 </head>
 <body>
-  <table>
-    <colgroup>
-      <col class="nome">
-      <col class="sexo">
-      <col class="idade">
-      <col class="profissao">
-    </colgroup>
-    <caption>Cadastro</caption>
-    <tr>
-      <th scope="col">Nome</th>
-      <th scope="col">Sexo</th>
-      <th scope="col">Idade</th>
-      <th scope="col">Profissão</th>
-    </tr>
-    <tr>
-      <td>Ana Maria</td>
-      <td>22</td>
-      <td>F</td>
-      <td>Jornalista</td>
-    </tr>
-    <tr>
-      <td>João</td>
-      <td>25</td>
-      <td>M</td>
-      <td>Programador</td>
-    </tr>
-    <tr>
-      <td>Gustavo</td>
-      <td>30</td>
-      <td>M</td>
-      <td>Médico</td>
-    </tr>
-    <tr>
-      <td>Verônica</td>
-      <td>20</td>
-      <td>F</td>
-      <td>Vendedora</td>
-    </tr>
-  </table>
+  <div id="container">
+    <table>
+      <colgroup>
+        <col class="nome">
+        <col class="sexo">
+        <col class="idade">
+        <col class="profissao">
+      </colgroup>
+      <caption>Cadastro</caption>
+      <tr>
+        <th scope="col">Nome</th>
+        <th scope="col">Sexo</th>
+        <th scope="col">Idade</th>
+        <th scope="col">Profissão</th>
+      </tr>
+      <tr>
+        <td>Ana Maria</td>
+        <td>22</td>
+        <td>F</td>
+        <td>Jornalista</td>
+      </tr>
+      <tr>
+        <td>João</td>
+        <td>25</td>
+        <td>M</td>
+        <td>Programador</td>
+      </tr>
+      <tr>
+        <td>Gustavo</td>
+        <td>30</td>
+        <td>M</td>
+        <td>Médico</td>
+      </tr>
+      <tr>
+        <td>Verônica</td>
+        <td>20</td>
+        <td>F</td>
+        <td>Vendedora</td>
+      </tr>
+    </table>
+  </div>
 </body>
 </html>
