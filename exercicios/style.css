@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px;
+    background-color: #696969;
+    font: 12pt Arial;
+}
+
+main {
+    margin: auto;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.507);
+    border-radius: 10px;
+    background-color: white;
+    max-width: 500px;
+}
+
+h1 {
+    color: goldenrod;
+    margin: 20px 0;
+}
+
+aside {
+    font-size: 10pt;
+    background-color: rgba(222, 222, 222);
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+aside img {
+    width: 60px;
+    margin-right: 10px;
+    float: left;
+}
