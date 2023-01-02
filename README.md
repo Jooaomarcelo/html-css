@@ -6,3 +6,4 @@
  <p><a href="https://jooaomarcelo.github.io/html-css/projetos/Pokédex" target="_blank">Pokédex</a></p>
  <p><a href="https://jooaomarcelo.github.io/html-css/projetos/d010(Primeiro%20site%20feito)/android.html" target="_blank">Projeto Android</a></p>
  <p><a href="https://jooaomarcelo.github.io/html-css/projetos/d012" target="_blank">Projeto Cordel</a></p>
+ <p><a href="https://jooaomarcelo.github.io/html-css/exercicios/index.html" target="_blank"> Execute os exercícios aqui</a></p>
